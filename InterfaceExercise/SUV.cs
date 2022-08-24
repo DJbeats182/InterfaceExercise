@@ -13,6 +13,11 @@ namespace InterfaceExercise
         public bool HasCargoSpace { get; set; }
         public bool HasRoofRack { get; set; }
         public string Logo { get; set; }
-        public int RevenueMade { get; set; }
+        public string Slogan { get; set; }
+
+        public void HonkNoise()
+        {
+            Console.WriteLine("SUV's go Beep! Beep!");
+        }
     }
 }

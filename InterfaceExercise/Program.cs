@@ -76,6 +76,7 @@ namespace InterfaceExercise
                 Console.WriteLine($"Wheels: {item.NumberOfWheels}");
                 Console.WriteLine($"Convertible: {item.IsConvertible}");
                 Console.WriteLine($"Gas: {item.TakesGas}");
+                item.HonkNoise();
                 Console.WriteLine();
             }
 

@@ -13,6 +13,11 @@ namespace InterfaceExercise
         public bool HasTrunk { get; set; }
         public int GasMileage { get; set; }
         public string Logo { get; set; }
-        public int RevenueMade { get; set; }
+        public string Slogan { get; set; }
+
+        public void HonkNoise()
+        {
+            Console.WriteLine("Cars go Honk! Honk!");
+        }
     }
 }

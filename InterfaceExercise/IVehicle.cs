@@ -10,5 +10,7 @@ namespace InterfaceExercise
         public bool TakesGas { get; set; }
         public bool IsConvertible { get; set; }
         public int NumberOfSeats { get; set; }
+        public void HonkNoise();       
+                
     }
 }

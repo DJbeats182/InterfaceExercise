@@ -7,6 +7,6 @@ namespace InterfaceExercise
     internal interface ICompany
     {
         public string Logo { get; set; }
-        public int RevenueMade { get; set; }
+        public string Slogan { get; set; }
     }
 }

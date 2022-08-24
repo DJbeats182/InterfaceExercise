@@ -13,6 +13,11 @@ namespace InterfaceExercise
         public bool HasBed { get; set; }
         public int TowCapacity { get; set; }
         public string Logo { get; set; }
-        public int RevenueMade { get; set; }
+        public string Slogan { get; set; }
+
+        public void HonkNoise()
+        {
+            Console.WriteLine("Trucks go Aruga!");
+        }
     }
 }
